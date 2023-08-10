@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+.first {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    display: flex;
+    background-color: rgb(242, 252, 242);
+}
+
+.listfield{
+    margin-left: 1vw;
+    padding: 0.5vw;
+}
+
+.viewmodel{
+    margin-left: 1vw;
+    padding: 0.5vw;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+li {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+li input {
+    margin-right: 0.2em;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.addBtn {
+    margin-right: 0.2em;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.viewm {
+    white-space:nowrap;
+    display: flex;
+}
+
+#image {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+#desc {
+    display:flex;
+    padding-left: 0.5em;
+}
+
+.block {
+    display: none;
+}
+
+.addElement {
+    border: 0;
+    border-radius: 4px;
+    padding: 1em 2em;
+    text-align: center;
+}
+
+.addElement div {
+    margin: 1em 1em 1em;
+}
+
+.addElement form {
+    margin: 0em 1em 1em;
+}
+
+.addElement menu {
+    margin-left: -2em;
+}
+
+img {  
+    width: 100%;
+    max-width: 15em;
+}  
